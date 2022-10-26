@@ -16,3 +16,9 @@
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
+.spResultado{
+    background: rgb(102, 10, 102);
+    color: rgb(240, 200, 240);
+    padding: 4px;
+    margin: 2px;
+}
