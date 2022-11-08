@@ -9,7 +9,15 @@
     <link rel="stylesheet" href="geral.css">
 </head>
 <body>
+  <input type="checkbox" id="calFin">
   <div class="calculadora">
+
+    <label for="calcFin">
+      <h3>Financeira</h3>
+    </label>
+  
+    <div class="calcF">
+
     <div class="spResultado">
         <span id="resultado">Total:0,0</span><br>
     </div>
@@ -18,12 +26,13 @@
     Taxa de Juros: <input id="juros" type="text"> <br>
     Quantidade meses: <input id="meses" type="text"> <br>
     <button id="btnCalc" onclick="total()">Calcular</button>
-  </div>
-  <div>
+    
+    <div class="spMes">
       <span id="mes">Mês a Mês</span>
   </div>
+  </div>
+  
  
 
 </body>
 </html>
-
